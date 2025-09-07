@@ -20,10 +20,10 @@ app.post('/cars', (req,res) =>{
     res.send("car submitted succesfully")
 });
 
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/myDatabase', {
-    useNewurlParser:true,
-    useUnifiedTopology:true
-})
-.then(()=>{console.log("connection succcessful")})
-.catch(()=>{console.log("recieved an error")});
+// const mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost:27017/myDatabase', {
+//     useNewurlParser:true,
+//     useUnifiedTopology:true
+// })
+// .then(()=>{console.log("connection succcessful")})
+// .catch(()=>{console.log("recieved an error")});
